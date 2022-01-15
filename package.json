@@ -1,0 +1,38 @@
+{
+  "name": "copied",
+  "description": "Copy to clipboard in browser.",
+  "version": "0.1.0",
+  "keywords": [
+    "copied",
+    "clipboard"
+  ],
+  "types": "dist/src/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "scripts": {
+    "dev": "vite -c example/vite.config.ts",
+    "build:demo": "vite build -c example/vite.config.ts",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2",
+    "vite-plugin-dts": "^0.9.9"
+  },
+  "author": {
+    "email": "lanyueos@qq.com",
+    "name": "lanyue"
+  },
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/mengdu/copied"
+  },
+  "bugs": {
+    "url": "https://github.com/mengdu/copied/issues"
+  },
+  "license": "MIT"
+}
